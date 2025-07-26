@@ -1,0 +1,20 @@
+{
+  "name": "simple-nodejs-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "aws-sdk": "^2.1.6",
+    "async": "=2.1.5",
+    "winston": "=2.3.1",
+    "slack-node": "^0.1.8"    
+  }
+
+}
